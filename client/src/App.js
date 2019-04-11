@@ -24,7 +24,7 @@ class App extends Component {
           <NavBar />
           <Container>
           <Route exact path="https://easygo-t22.herokuapp.com/login/" component={Login} />
-          <Route exact path="https://easygo-t22.herokuapp.com/" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="https://easygo-t22.herokuapp.com/book_tickets/:a" component={BookT} />
           <Route exact path="https://easygo-t22.herokuapp.com/book_tickets/seats_booking/" component={SeatB} />
           <Route exact path="https://easygo-t22.herokuapp.com/book_tickets/bus_list/:username/:source/:destination/:doj" component={BusList} />
